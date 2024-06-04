@@ -23,10 +23,37 @@ const bigNumber = 345667854678643568856n
 
 const heroes = ["shaktiman", "naagraj", "doga"]
 let myobj = {
-    name : hritik,
+    name : "hritik",
     age: 20
 }
 
 const myFunction = function(){
     console.log("Hello world");
 }
+
+
+
+
+// ******************** Memory ****************************
+
+//Stack(primitive),Heap(non-primitive)
+
+let myYoutubename = "codewithhritik"
+
+let anothername = myYoutubename
+anothername = "codewithchasmis"
+
+console.log(myYoutubename)
+console.log(anothername)
+
+let userOne = {
+email : "usergoogle.com",
+upi : "user@byl"
+}
+let userTwo = userOne 
+
+userTwo.email = "hritik483@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
+

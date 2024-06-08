@@ -37,7 +37,8 @@ const myFunction = function(){
 // ******************** Memory ****************************
 
 //Stack(primitive),Heap(non-primitive)
-
+//In stack the main value never changes because in this we have a copy not a reference
+//In heap the main value will be change because it directly connect 
 let myYoutubename = "codewithhritik"
 
 let anothername = myYoutubename
